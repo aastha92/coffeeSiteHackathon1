@@ -11,33 +11,36 @@
   <title>Bootstrap with SCSS template</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="/"><img src="/img/logo.svg" class="coffeeShopLogo"></a>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active " href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/coffee.html">Coffee</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/our-story.html">Our Story</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand bg-light">
+        <div class="container flex-wrap">
+
+        
+        <a class="navbar col-sm-12 col-lg-5 justify-content-center" href="/"><img src="/img/logo.svg" class="coffeeShopLogo"></a>
+
+        <ul class="nav col-sm-12 col-lg-7 justify-content-end">
+            <li class="nav-item">
+            <a class="nav-link active " href="/">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/coffee.html">Coffee</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/our-story.html">Our Story</a>
+            </li>
+        </ul>
+        </div>
+ style="height: 100%;"    </nav>
 
   <div class="container">
     <div class="row">
-      <h1 class="col-7 mt-4 text-uppercase">generic hipster coffee</h1>
+      <h1 class="col-7  mt-4 text-uppercase">generic hipster coffee</h1>
       <p class="col-9 h4 mb-4 text-uppercase">specialty coffee, fresh food &amp; local comunity. </p>  
-      <img src="/img/counter.jpg" alt="homepage" class="img-fluid">
+      <img src="/img/counter.jpg" alt="homepage" class="img-fluid" style="height: 100%;">
       <div class="row w-100">
-        <div class="col-4 mt-4 mb-4" >
+        <div class="col-lg-4 mt-4 mb-4" >
           <h4 class="text-uppercase h4">opening hours</h4>
           <br>
           <p class="h5">sunday-thursday: 8:00-23:00
@@ -45,12 +48,12 @@
             friday-saturday: 8:00-1:00
           </p>
         </div>
-        <div class="col-4 mt-4 mb-4">
+        <div class="col-lg-4 mt-4 mb-4">
           <h4 class="text-uppercase h4">book a table</h4>
           <br>
           <p class="h5">call +1 415-321-4567</p>
         </div>
-        <div class="col-4 mt-4 mb-4">
+        <div class="col-lg-4 mt-4 mb-4">
           <h4 class="text-uppercase h4">address</h4>
           <br>
           <p class="h5">321 Ivy St.
@@ -59,7 +62,7 @@
           </p>
         </div>
       </div>
-      <img alt="Map" class="img-fluid" src="/img/map.png">
+      <img alt="Map" class="img-fluid footer-img" src="/img/map.png">
     </div>
   </div>
 
